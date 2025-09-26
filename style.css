@@ -113,6 +113,49 @@ body {
     color: white;
 }
 
+/* Conteneurs d'annonces AdSense */
+.ad-container {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+
+.header-ad {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.middle-ad {
+    margin: 40px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px 0;
+}
+
+.results-ad {
+    margin: 20px 0 30px 0;
+}
+
+.footer-ad {
+    margin: 40px 0 20px 0;
+}
+
+/* Responsive pour les annonces */
+@media (max-width: 768px) {
+    .ad-container {
+        margin: 20px 0;
+    }
+
+    .header-ad,
+    .middle-ad,
+    .results-ad,
+    .footer-ad {
+        margin: 20px 0;
+    }
+}
+
 /* Carrousel d'arrière-plan */
 .carousel {
     position: fixed;
